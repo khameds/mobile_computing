@@ -1,5 +1,6 @@
 package smail.tp1;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DataManager
@@ -22,6 +23,7 @@ public class DataManager
 
     private DataManager()
     {
+        nameList = new ArrayList<>();
     }
 
     public static DataManager getDataManager()

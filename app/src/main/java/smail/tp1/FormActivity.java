@@ -3,9 +3,11 @@ package smail.tp1;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 
 public class FormActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -21,6 +23,8 @@ public class FormActivity extends AppCompatActivity implements View.OnClickListe
         buttonBack.setOnClickListener(this);
 
     }
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
